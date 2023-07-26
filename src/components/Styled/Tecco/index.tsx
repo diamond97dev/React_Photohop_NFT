@@ -5,7 +5,7 @@ const TeccoImage = styled.img`
   rotate: 105deg;
   transform-origin: right top;
   z-index: 9;
-  filter: brightness(0.9) contrast(1.3);
+  filter: brightness(0.85) contrast(1.3);
 `;
 
 const TeccoPatten1 = styled.img`
@@ -20,7 +20,7 @@ const TeccoPatten2 = styled.img`
   position: absolute;
   z-index: 13;
   mix-blend-mode: screen;
-  opacity: 100%;
+  opacity: 40%;
   filter: brightness(1) contrast(1);
 `;
 

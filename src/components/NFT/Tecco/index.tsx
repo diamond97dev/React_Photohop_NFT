@@ -19,6 +19,7 @@ const Tecco: React.FC<Props> = ({ imageUrl }) => {
       {isImage ? (
         <>
           <TeccoPatten1 id='overlay_pattern_1' src={texture} />
+          <TeccoPatten1 id='overlay_pattern_1' src={texture} />
           <TeccoPatten2 id='overlay_pattern_1' src={mask} />
           <TeccoImage
             id='content'

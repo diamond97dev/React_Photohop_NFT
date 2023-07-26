@@ -5,7 +5,7 @@ const NoArtImage = styled.img`
   rotate: 105deg;
   transform-origin: right top;
   z-index: 9;
-  filter: brightness(1) contrast(1);
+  filter: brightness(0.9) contrast(1);
 `;
 
 export { NoArtImage };
