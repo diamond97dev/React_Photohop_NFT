@@ -13,11 +13,11 @@ export const useImageSetting = (imageUrl: string) => {
     img.src = imageUrl;
     img.onload = () => {
       const aspectRatio = img.width / img.height;
-      if (((1205 * 875) / 1205) * aspectRatio > 660) {
-        setHeight(1205);
-        setWidth(((1205 * 875) / 1205) * aspectRatio);
-        setTop(690);
-        setRight(-3);
+      if (((1188 * 875) / 1205) * aspectRatio > 660) {
+        setHeight(1188);
+        setWidth(((1188 * 875) / 1205) * aspectRatio);
+        setTop(669);
+        setRight(0);
       } else {
         setHeight(1655);
         setWidth(((1655 * 875) / 1205) * aspectRatio);
