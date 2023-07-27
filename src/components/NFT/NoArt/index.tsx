@@ -3,7 +3,6 @@ import paper from "assets/NoArt/paper.png";
 import { BackgroundBoard, Container, Paper } from "../../Styled/Main";
 import { useImageSetting } from "../../../hooks";
 import { NoArtImage } from "../../Styled/NoArt";
-import land from "assets/landscpae.jpg";
 
 type Props = {
   imageUrl: string;
